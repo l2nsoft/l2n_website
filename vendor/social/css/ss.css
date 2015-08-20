@@ -1,0 +1,38 @@
+.social {
+    overflow: auto;
+    text-align: center;
+    width: 200px;
+    padding-left: 0px;
+    margin: 5px 0;
+}
+.social li {
+    list-style-type: none;
+    float: left;
+}
+.social li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px !important;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.fa-facebook {
+    background:#3b5998 !important;
+}
+.fa-linkedin {
+    background:#007bb6 !important;
+}
+.fa-twitter {
+    background:#00aced !important;
+}
+.fa-google-plus {
+    background:#dd4b39 !important;
+}
+.social li a i:hover {
+    opacity: .7;
+} 
